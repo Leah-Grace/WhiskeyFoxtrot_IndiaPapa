@@ -1,0 +1,26 @@
+{
+  "name": "databasedemo",
+  "version": "1.0.0",
+  "description": "Database Demo: Whiskey Foxtrot indigo Papa Papa Charlie Alphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leah-Grace/WhiskeyFoxtrot_IndiaPapa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leah-Grace/WhiskeyFoxtrot_IndiaPapa/issues"
+  },
+  "homepage": "https://github.com/Leah-Grace/WhiskeyFoxtrot_IndiaPapa#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.19.0",
+    "readfile": "^1.0.1"
+  }
+}
