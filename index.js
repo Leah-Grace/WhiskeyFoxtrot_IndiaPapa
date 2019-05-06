@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const routes = require("./routes/api");
 var fs = require('fs');
 
 
@@ -7,8 +8,6 @@ fs.readfile("Database.txt", "utf8", function(err, data) {
     if (err) throw err;
     console.log(data);
 } )
-
-
 
 
 
